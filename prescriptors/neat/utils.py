@@ -5,7 +5,7 @@ import subprocess
 import urllib.request
 import pandas as pd
 
-from covid_xprize.validation.scenario_generator import get_raw_data, generate_scenario
+from ...prescriptor_validation.scenario_generator import get_raw_data, generate_scenario
 
 DATA_URL = "https://raw.githubusercontent.com/OxCGRT/covid-policy-tracker/master/data/OxCGRT_latest.csv"
 ROOT_DIR = os.path.dirname(os.path.abspath(__file__))

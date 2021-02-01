@@ -11,16 +11,16 @@ from datetime import datetime
 import neat
 
 # Function imports from utils
-from covid_xprize.examples.prescriptors.neat.utils import add_geo_id
-from covid_xprize.examples.prescriptors.neat.utils import get_predictions
-from covid_xprize.examples.prescriptors.neat.utils import load_ips_file
-from covid_xprize.examples.prescriptors.neat.utils import prepare_historical_df
+from utils import add_geo_id
+from utils import get_predictions
+from utils import load_ips_file
+from utils import prepare_historical_df
 
 # Constant imports from utils
-from covid_xprize.examples.prescriptors.neat.utils import CASES_COL
-from covid_xprize.examples.prescriptors.neat.utils import IP_COLS
-from covid_xprize.examples.prescriptors.neat.utils import IP_MAX_VALUES
-from covid_xprize.examples.prescriptors.neat.utils import PRED_CASES_COL
+from utils import CASES_COL
+from utils import IP_COLS
+from utils import IP_MAX_VALUES
+from utils import PRED_CASES_COL
 
 
 # Path to file containing neat prescriptors. Here we simply use a
